@@ -1,7 +1,12 @@
 import React, { useEffect } from 'react'
+import { Route } from 'react-router-dom'
 import { connect } from 'react-redux'
-
 import { fetchTails } from '../actions'
+import Header from './Header'
+import Home from './Pages/Home'
+import Work from './Pages/Work'
+import AboutMe from './Pages/AboutMe'
+import Contact from './Pages/Contact'
 
 function App (props) {
   useEffect(() => {
@@ -10,14 +15,14 @@ function App (props) {
 
   return (
     <>
-      <div className='app'>
-        <h1>Fullstack Boilerplate - with Tails!</h1>
-        <ul>
-          {props.tails.map(tail => (
-            <li key={tail}>{tail}</li>
-          ))}
-        </ul>
-      </div>
+      <Header />
+      <main>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/work' component={Work} />
+        <Route path='/aboutme' component={AboutMe} />
+        <Route path='/contact' component={Contact} />
+
+      </main>
     </>
   )
 }
