@@ -16,7 +16,7 @@ function App (props) {
   return (
     <>
       <Header />
-      <main>
+      <main classNam=''>
         <Route exact path='/' component={Home} />
         <Route exact path='/work' component={Work} />
         <Route path='/aboutme' component={AboutMe} />
