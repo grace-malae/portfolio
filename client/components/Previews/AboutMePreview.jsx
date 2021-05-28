@@ -37,7 +37,7 @@ export default function AboutMePreview () {
                 What I do
               </h3>
               <p className="text-gray-600 mb-8">
-                I am a frontend software developer
+                I am a frontend software developer specialising in React.js and TailwindCSS. I like creating highly functional web apps that are just as beautiful.
               </p>
             </div>
             <div className='pt-60 pl-60'>
