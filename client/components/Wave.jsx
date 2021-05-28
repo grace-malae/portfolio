@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Wave () {
   return (
-    <div className="relative -mt-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600">
+    <div className="-mt-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
         <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
           <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fillRule="nonzero">

@@ -14,16 +14,15 @@ function App (props) {
   }, [])
 
   return (
-    <>
+    <div className='relative'>
       <Header />
-      <main classNam=''>
+      <main>
         <Route exact path='/' component={Home} />
         <Route exact path='/work' component={Work} />
         <Route path='/aboutme' component={AboutMe} />
         <Route path='/contact' component={Contact} />
-
       </main>
-    </>
+    </div>
   )
 }
 const mapStateToProps = (globalState) => {
