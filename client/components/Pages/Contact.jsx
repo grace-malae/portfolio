@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactForm from '../ContactForm'
 import Footer from '../Footer'
 
 export default function Contact () {
@@ -13,6 +14,7 @@ export default function Contact () {
       <div className="w-full mb-4">
         <div className="h-1 mx-auto bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600 w-72 my-0 py-0 rounded-t"></div>
       </div>
+      <ContactForm />
       <Footer />
     </>
   )
