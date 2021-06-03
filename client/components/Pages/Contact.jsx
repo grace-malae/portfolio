@@ -5,7 +5,7 @@ import Footer from '../Footer'
 export default function Contact () {
   return (
     <>
-      <div className='flex flex-row self-center w-full pt-52 justify-center'>
+      <div className='flex flex-row self-center w-full pt-48 justify-center'>
         <img className='self-center w-14 h-14' src='/images/BlackFranji.png' />
         <h1 className="text-5xl font-bold leading-tight text-center text-black">
           Contact

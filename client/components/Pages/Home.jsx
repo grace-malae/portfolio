@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../Footer'
 import GetInTouch from '../GetInTouch'
 import AboutMePreview from '../Previews/AboutMePreview'
-import RecentWorkPreview from '../Previews/RecentWorkPreview'
+// import RecentWorkPreview from '../Previews/RecentWorkPreview'
 import Wave from '../Wave'
 
 export default function Home () {
@@ -26,7 +26,7 @@ export default function Home () {
       </div>
       <Wave/>
       <AboutMePreview />
-      <RecentWorkPreview />
+      {/* <RecentWorkPreview /> */}
       <Footer />
       <GetInTouch />
     </>

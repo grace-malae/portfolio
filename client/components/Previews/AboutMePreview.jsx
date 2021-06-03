@@ -35,7 +35,7 @@ export default function AboutMePreview () {
               <img src='/images/code.png' />
             </div>
             <div className="w-full sm:w-1/2 p-8 mt-6">
-              <div className="align-middle">
+              <div className="flex flex-col align-middle">
                 <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
                 What I do
                 </h3>
@@ -43,11 +43,11 @@ export default function AboutMePreview () {
                 I am a frontend software developer specialising in React.js and TailwindCSS.
                 I like creating highly functional web apps that are just as beautiful, just like the one you are on now 😉.
                 </p>
+                <div className='justify-end text-right'>
+                  <FindOutMoreButton />
+                </div>
               </div>
             </div>
-          </div>
-          <div className='w-full text-right'>
-            <FindOutMoreButton />
           </div>
         </div>
       </div>
