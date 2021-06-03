@@ -37,8 +37,8 @@ export default function Work () {
                 Kupu is a web app that generates a Māori word of the day, with a phonetic pronunciation of the day&apos;s word, and the meaning.
               </p>
             </div>
-            <div className='w-1/4 self-center'>
-              <img className='w-32 h-32' src='/images/BlackFranji.png'/>
+            <div className='w-2/4 self-center'>
+              <img className='p-4' src='/images/preview2.png'/>
             </div>
           </div>
         </div>
