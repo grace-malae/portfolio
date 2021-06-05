@@ -16,31 +16,35 @@ export default function Work () {
       </div>
       <div className='flex flex-col w-full'>
         <div className="w-full md:w-2/3 p-6 flex flex-col mx-auto">
-          <div className='flex md:flex-row rounded-lg bg-gray-100 m-6 shadow-xl hover:scale-105 duration-300 ease-in-out transform transition'>
-            <div className="overflow-hidden h-48 w-3/4">
-              <h1 className="w-full p-6 font-bold text-xl text-gray-800">Tuohunga</h1>
-              <p className="text-gray-800 text-base px-6 mb-5">
+          <a href='https://tuohunga.herokuapp.com/#/' target='blank'>
+            <div className='flex md:flex-row rounded-lg bg-gray-100 m-6 shadow-xl hover:scale-105 duration-300 ease-in-out transform transition'>
+              <div className="h-48 w-3/4">
+                <h1 className="w-full p-6 font-bold text-xl text-gray-800">Tuohunga</h1>
+                <p className="text-gray-800 text-base px-6 mb-5">
                     Tuohunga is a web app created with the intention of helping Woman&apos;s Refuge NZ. It is intending to help clients get into safehouses faster.
-              </p>
+                </p>
+              </div>
+              <div className='w-2/4 self-center'>
+                <img className='p-4' src='/images/preview1.png'/>
+              </div>
             </div>
-            <div className='w-2/4 self-center'>
-              <img className='p-4' src='/images/preview1.png'/>
-            </div>
-          </div>
+          </a>
         </div>
 
         <div className="w-full md:w-2/3 p-6 flex flex-col mx-auto">
-          <div className='flex md:flex-row rounded-lg bg-gray-100 m-6 shadow-xl hover:scale-105 duration-300 ease-in-out transform transition'>
-            <div className="overflow-hidden h-48 w-3/4">
-              <h1 className="w-full p-6 font-bold text-xl text-gray-800">Kupu</h1>
-              <p className="text-gray-800 text-base px-6 mb-5">
+          <a href='https://tuohunga.herokuapp.com/#/' target='blank'>
+            <div className='flex md:flex-row rounded-lg bg-gray-100 m-6 shadow-xl hover:scale-105 duration-300 ease-in-out transform transition'>
+              <div className="overflow-hidden h-48 w-3/4">
+                <h1 className="w-full p-6 font-bold text-xl text-gray-800">Kupu</h1>
+                <p className="text-gray-800 text-base px-6 mb-5">
                 Kupu is a web app that generates a Māori word of the day, with a phonetic pronunciation of the day&apos;s word, and the meaning.
-              </p>
+                </p>
+              </div>
+              <div className='w-2/4 self-center'>
+                <img className='p-4' src='/images/preview2.png'/>
+              </div>
             </div>
-            <div className='w-2/4 self-center'>
-              <img className='p-4' src='/images/preview2.png'/>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
       <Footer />

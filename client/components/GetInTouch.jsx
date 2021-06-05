@@ -17,7 +17,9 @@ export default function GetInTouch () {
         <h3 className="my-4 text-3xl leading-tight">
         Click below to get in touch with me
         </h3>
-        <SureButton />
+        <div className='m-12'>
+          <SureButton />
+        </div>
       </div>
     </div>
   )
