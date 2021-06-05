@@ -15,9 +15,11 @@ export default function Home () {
             <h1 className="my-4 text-7xl font-bold leading-tight">
             Grace Malae
             </h1>
-            <p className="leading-normal text-2xl mb-8">
-            A Frontend Software Developer
-            </p>
+            <div className="flex flex-row items-center">
+              <div className="leading-normal text-2xl mb-8 my-auto">
+              A Frontend Software Developer
+              </div>
+            </div>
           </div>
         </div>
         <div className='w-96 mx-auto'>
