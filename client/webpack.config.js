@@ -2,7 +2,7 @@ const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
-  entry: ['./client/index.js', './client/styles/index.scss'],
+  entry: ['./client/index.js', './client/styles/index.css'],
   output: {
     path: path.join(__dirname, '..', 'server', 'public'),
     filename: 'bundle.js'
@@ -28,8 +28,7 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader
           },
-          'css-loader',
-          'sass-loader'
+          'css-loader'
         ]
       }
     ]
