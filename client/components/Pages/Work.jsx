@@ -12,7 +12,7 @@ export default function Work () {
         </h1>
       </div>
       <div className="w-full mb-4">
-        <div className="h-1 mx-auto bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600 w-52 my-0 py-0 rounded-t"></div>
+        <div className="h-1 mx-auto bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600 w-36 md:w-52 my-0 py-0 rounded-t"></div>
       </div>
       <div className='flex flex-col w-full'>
         <div className="w-full md:w-2/3 p-6 flex flex-col mx-auto">
