@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer () {
   return (
-    <div className='bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600'>
+    <div className='-mt-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600'>
       <svg className="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
         <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
           <g transform="translate(-1.000000, -14.000000)" fillRule="nonzero">

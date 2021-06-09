@@ -14,39 +14,38 @@ export default function AboutMePreview () {
         <div className="w-full mb-4">
           <div className="h-1 mx-auto bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600 w-48 md:w-64 my-0 py-0 rounded-t"></div>
         </div>
-        <div className="flex flex-wrap">
-          <div className='py-8 flex flex-row justify-center'>
-            <div className="w-5/6 sm:w-1/2 p-8">
-              <h3 className="text-3xl text-center md:text-left text-gray-800 font-bold leading-none m-3">
+        <div className="flex flex-col">
+          <div className='py-8 flex flex-col md:flex-row justify-center'>
+            <div className="w-full md:w-5/6 md:p-8">
+              <h3 className="text-xl md:text-3xl text-center md:text-left text-gray-800 font-bold leading-none my-3">
               A Bit About Me
               </h3>
-              <p className="text-gray-600 md:mb-8 text-justify">
+              <p className="text-gray-600 mx-8 mb-8 text-justify">
               I am a Māori and Samoan girl born and raised in New Zealand. My tech journey began with at a software development boot camp called Enspiral Dev Academy.
               Within just 15 weeks, I learnt to create web apps such as the one you are on now.
               </p>
-              <div className="md:hidden flex w-full p-6">
-                <img src='/images/muriwai.png' />
-              </div>
             </div>
-            <div className="hidden md:flex w-2/3 p-6">
+            <div className="w-full sm:w-2/5 p-6">
               <img src='/images/muriwai.png' />
             </div>
           </div>
 
-          <div className='md:py-8 flex flex-row justify-center'>
+          <div className='md:py-8 flex flex-col md:flex-row justify-center'>
             <div className="hidden md:flex w-1/3 p-6">
               <img src='/images/code.png' />
             </div>
-            <div className="w-5/6 md:w-2/3 p-8 md:mt-6">
+            <div className="w-full md:w-2/3 md:mt-6">
               <div className="flex flex-col justify-center">
-                <h3 className="text-3xl text-center md:text-left text-gray-800 font-bold leading-none m-3">
-                What I do
-                </h3>
-                <p className="text-gray-600 md:mb-8 text-justify">
-                I am a frontend software developer specialising in React.js and TailwindCSS.
+                <div className="w-full md:w-5/6 md:p-8">
+                  <h3 className="text-xl md:text-3xl text-center md:text-left text-gray-800 font-bold leading-none my-3">
+              What I do
+                  </h3>
+                  <p className="text-gray-600 mx-8 mb-8 text-justify">
+              I am a frontend software developer specialising in React.js and TailwindCSS.
                 I like creating highly functional web apps that are just as beautiful, just like the one you are on now 😉.
-                </p>
-                <div className="md:hidden flex w-5/6 mx-auto p-6">
+                  </p>
+                </div>
+                <div className="md:hidden flex w-4/6 mx-auto p-6">
                   <img src='/images/code.png' />
                 </div>
                 <div className='text-center md:text-right mt-12'>
