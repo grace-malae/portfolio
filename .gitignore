@@ -4,6 +4,7 @@ node_modules
 server/public/bundle.js
 server/public/bundle.js.map
 server/public/styles.css
+server/public/main.css
 server/public/styles.css.map
 .env
 tags
