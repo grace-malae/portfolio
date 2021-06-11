@@ -21,7 +21,7 @@ export default function Work () {
             <div className='flex flex-col md:flex-row rounded-lg bg-gray-100 m-6 shadow-xl hover:scale-105 duration-300 ease-in-out transform transition'>
               <h1 className="w-full p-6 font-bold text-xl text-gray-800 text-center md:hidden">Tuohunga</h1>
               <div className='w-full self-center md:hidden'>
-                <img className='p-4' src='/images/preview1.png'/>
+                <img className='p-4' src='/images/tuohunga/preview1.png'/>
               </div>
               <div className="h-full w-full md:w-3/4">
                 <h1 className="w-full p-6 font-bold text-2xl text-gray-800 hidden md:flex">Tuohunga</h1>
@@ -30,30 +30,28 @@ export default function Work () {
                 </p>
               </div>
               <div className='w-2/4 self-center hidden md:flex'>
-                <img className='p-4' src='/images/preview1.png'/>
+                <img className='p-4' src='/images/tuohunga/preview1.png'/>
               </div>
             </div>
           </Link>
         </div>
 
         <div className="w-full md:w-2/3 p-6 flex flex-col mx-auto">
-          <a href='https://tuohunga.herokuapp.com/#/' target='blank'>
-            <div className='flex flex-col md:flex-row rounded-lg bg-gray-100 m-6 shadow-xl hover:scale-105 duration-300 ease-in-out transform transition'>
-              <h1 className="w-full p-6 font-bold text-xl text-gray-800 text-center md:hidden">Kupu</h1>
-              <div className='w-full self-center md:hidden'>
-                <img className='p-4' src='/images/preview2.png'/>
-              </div>
-              <div className="h-full w-full md:w-3/4">
-                <h1 className="w-full p-6 font-bold text-2xl text-gray-800 hidden md:flex">Kupu</h1>
-                <p className="text-gray-800 text-base px-6 mb-5">
-                Kupu is a web app that generates a Māori word of the day, with a phonetic pronunciation, and meaning. Currently this is a &apos;Work In Progress&apos; as at this stage, the word does not refresh daily.
-                </p>
-              </div>
-              <div className='w-2/4 self-center hidden md:flex'>
-                <img className='p-4' src='/images/preview2.png'/>
-              </div>
+          <div className='flex flex-col md:flex-row rounded-lg bg-gray-100 m-6 shadow-xl'>
+            <h1 className="w-full p-6 font-bold text-xl text-gray-800 text-center md:hidden">Kupu</h1>
+            <div className='w-full self-center md:hidden'>
+              <img className='p-4' src='/images/tuohunga/preview2.png'/>
             </div>
-          </a>
+            <div className="h-full w-full md:w-3/4">
+              <h1 className="w-full p-6 font-bold text-2xl text-gray-800 hidden md:flex">Kupu</h1>
+              <p className="text-gray-800 text-base px-6 mb-5">
+                Kupu is a web app that generates a Māori word of the day, with a phonetic pronunciation, and meaning. Currently this is a &apos;Work In Progress&apos; as at this stage, the word does not refresh daily.
+              </p>
+            </div>
+            <div className='w-2/4 self-center hidden md:flex'>
+              <img className='p-4' src='/images/kupu/preview2.png'/>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
