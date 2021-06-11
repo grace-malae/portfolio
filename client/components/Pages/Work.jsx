@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Footer from '../Footer'
 import GetInTouch from '../GetInTouch'
 
@@ -16,7 +17,7 @@ export default function Work () {
       </div>
       <div className='flex flex-col w-full'>
         <div className="w-full md:w-2/3 p-6 flex flex-col mx-auto">
-          <a href='https://tuohunga.herokuapp.com/#/' target='blank'>
+          <Link to='/tuohunga'>
             <div className='flex flex-col md:flex-row rounded-lg bg-gray-100 m-6 shadow-xl hover:scale-105 duration-300 ease-in-out transform transition'>
               <h1 className="w-full p-6 font-bold text-xl text-gray-800 text-center md:hidden">Tuohunga</h1>
               <div className='w-full self-center md:hidden'>
@@ -32,7 +33,7 @@ export default function Work () {
                 <img className='p-4' src='/images/preview1.png'/>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
 
         <div className="w-full md:w-2/3 p-6 flex flex-col mx-auto">

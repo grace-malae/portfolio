@@ -7,6 +7,7 @@ import Home from './Pages/Home'
 import Work from './Pages/Work'
 import AboutMe from './Pages/AboutMe'
 import Contact from './Pages/Contact'
+import Tuohunga from './Tuohunga'
 
 function App (props) {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App (props) {
         <Route path='/work' component={Work} />
         <Route path='/aboutme' component={AboutMe} />
         <Route path='/contact' component={Contact} />
+        <Route path='/tuohunga' component={Tuohunga} />
       </main>
     </div>
   )
