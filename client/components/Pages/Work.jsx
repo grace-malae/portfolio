@@ -40,7 +40,7 @@ export default function Work () {
           <div className='flex flex-col md:flex-row rounded-lg bg-gray-100 m-6 shadow-xl'>
             <h1 className="w-full p-6 font-bold text-xl text-gray-800 text-center md:hidden">Kupu</h1>
             <div className='w-full self-center md:hidden'>
-              <img className='p-4' src='/images/tuohunga/preview2.png'/>
+              <img className='p-4' src='/images/kupu/preview2.png'/>
             </div>
             <div className="h-full w-full md:w-3/4">
               <h1 className="w-full p-6 font-bold text-2xl text-gray-800 hidden md:flex">Kupu</h1>
