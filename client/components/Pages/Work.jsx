@@ -26,7 +26,7 @@ export default function Work () {
               <div className="h-full w-full md:w-3/4">
                 <h1 className="w-full p-6 font-bold text-2xl text-gray-800 hidden md:flex">Tuohunga</h1>
                 <p className="text-gray-800 text-base px-6 mb-5">
-                    Tuohunga is a web app created with the intention of helping Woman&apos;s Refuge NZ. It is intending to help clients get into safehouses as quickly as possible.
+                    Tuohunga is a web app created with the intention of helping Woman&apos;s Refuge NZ. It is intended to help clients get into safehouses as quickly as possible.
                 </p>
               </div>
               <div className='w-2/4 self-center hidden md:flex'>
