@@ -16,26 +16,30 @@ export default function Tuohunga () {
         <div className="h-1 mx-auto bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600 w-52 md:w-80 mt-1 py-0 rounded-t"></div>
       </div>
       <div className='flex flex-col md:flex-row w-full mt-12 md:mt-24 md:px-36'>
-        <div className='w-3/5 pr-8 self-center'>
+        <div className='md:hidden w-3/5 self-center'>
+          <img className='' src='/images/tuohunga/preview1-1.png' />
+        </div>
+
+        <div className='w-4/5 md:pr-8 self-center'>
           <h1 className="text-lg md:text-2xl font-bold text-black">
             About
           </h1>
           <p className="text-gray-800 text-justify">
-            Tuohunga is a web app created with the intention of helping Woman&apos;s Refuge NZ.
-            It is intended to help clients get into safehouses as quickly as possible.
+            Tuohunga is a web app created with the intention of helping Womens Refuge NZ.
+            It is to help clients get into safehouses as quickly as possible.
             This is done by simply skipping the step of blindly ringing up multiple safehouses for their availability.
             Instead, the user (such as a Refuge Coordinator or Police Officer) can login to Tuohunga and check the availability of any safehouse in New Zealand.
           </p>
         </div>
-        <div className='w-2/5 self-center'>
+        <div className='hidden md:flex w-2/5 self-center'>
           <img className='m-4' src='/images/tuohunga/preview1-1.png' />
         </div>
       </div>
       <div className='flex flex-col md:flex-row w-full mt-12 md:mt-12 md:px-36'>
-        <div className='w-1/3 self-center flex-row'>
-          <img className='p-4 w-4/5' src='/images/tuohunga/preview1-3.png' />
+        <div className='w-2/3 md:w-1/3 self-center'>
+          <img className='p-4' src='/images/tuohunga/preview1-3.png' />
         </div>
-        <div className='w-2/3 pl-6'>
+        <div className='self-center w-4/5 md:w-2/3 md:pl-6'>
           <h1 className="text-lg md:text-2xl font-bold text-black mt-12">
             Try it Out!
           </h1>
